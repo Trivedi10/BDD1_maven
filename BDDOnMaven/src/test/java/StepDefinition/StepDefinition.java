@@ -31,7 +31,7 @@ public class StepDefinition {
 		driver.findElement(By.xpath("//*[@id='txtPassword']")).sendKeys("admin123");
 	    driver.findElement(By.xpath("//*[@id='btnLogin']")).click();
 	    title=driver.getTitle();
-		
+		System.out.println("Siri");
 	}
 
 	@Then("^login should be successfull$")
